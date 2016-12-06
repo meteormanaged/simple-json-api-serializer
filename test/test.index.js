@@ -62,6 +62,10 @@ describe('serialize.serializeArray', function() {
     let error = serializer.serializeArray(fakePerson, type);
     expect(error).to.be.an('Error');
   });
+  it('returns an error when you dont give it any data', function() {
+    let error = serializer.serializeArray(null, type);
+    expect(error).to.be.an('Error');
+  });
   it('returns an error when you do not provide type', function() {
     let error = serializer.serializeArray(fakePeople);
     expect(error).to.be.an('Error');
