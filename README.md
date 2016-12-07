@@ -6,7 +6,7 @@ Simple JSON-API serializer for records.
 
 ## Usage
 
-    const serializer = require('simple-json-serializer');
+    const serializer = require('simple-json-api-serializer');
 	serializer.serialize(data, type);
 
 Require package, provide a record/records and type, be returned serialized documents.
