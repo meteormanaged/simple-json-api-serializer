@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/meteormanaged/simple-json-api-serializer.svg?branch=master)](https://travis-ci.org/meteormanaged/simple-json-api-serializer)
+
 # simple-json-serializer
 
 Simple JSON-API serializer for records.
