@@ -1,18 +1,19 @@
 [![Build Status](https://travis-ci.org/meteormanaged/simple-json-api-serializer.svg?branch=master)](https://travis-ci.org/meteormanaged/simple-json-api-serializer)
 
-# simple-json-serializer
+# simple-json-api-serializer
 
 Simple JSON-API serializer for records.
 
 ## Usage
 
-	serialize.serialize(data, type);
+    const serializer = require('simple-json-serializer');
+	serializer.serialize(data, type);
 
 Require package, provide a record/records and type, be returned serialized documents.
 
 Serialize a single object.
 
-	const serializer = require('simple-json-serializer');
+	const serializer = require('simple-json-api-serializer');
 
 
 	const fakePerson = {
@@ -37,7 +38,7 @@ Serialize a single object.
 
 Serialize an array of objects.
 
-	const serializer = require('simple-json-serializer');
+	const serializer = require('simple-json-api-serializer');
 	
 	const fakePeople = [{
 		  id: 1,
