@@ -23,14 +23,14 @@ Serialize a single object.
 	serializer.serialize(fakePerson, type);
 
 	
-	// { 
-	//		type: 'people',
-	//		id: 1,
-	//		attributes: { 
-	//			firstName: 'mike', 
-	//			lastName: 'fakeman' 
-	//		} 
-	//	}
+    // { 
+    //		type: 'people',
+    //		id: 1,
+    //		attributes: { 
+    //			firstName: 'mike', 
+    //			lastName: 'fakeman' 
+    //		} 
+    //	}
 
 
 Serialize an array of objects.
@@ -69,4 +69,14 @@ Serialize an array of objects.
     //   		} 
     //	}]
 
+## Testing
+
+    //  Clone the repository.
+    user@localhost:~$ git clone git@github.com:meteormanaged/simple-json-api-serializer.git
+    // Change to directory.
+    user@localhost:~$ cd simple-json-api-serializer/
+    // Install dev dependencies.
+    user@localhost:~/simple-json-api-serializer$ npm install
+    // Run test and coverage.
+    user@localhost:~/simple-json-api-serializer$ npm test
 
